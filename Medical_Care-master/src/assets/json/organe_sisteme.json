@@ -1,0 +1,72 @@
+{
+    "pjeset": [{
+        "organe": [{
+                "name": "Truri",
+                "shortDesc": "Truri eshte ne kokë. ",
+                "image": "../../assets/imgs/truRed.png",
+                "longDescription": "Pa trurin nuk jeton njeriu."
+            }, {
+                "name": "Zemra",
+                "shortDesc": "Zemra eshte organi qe pompon gjak ne trupin e njeriut ",
+                "image": "../../assets/imgs/zemra.png",
+                "longDesc": "Pa zemrën nuk jeton njeriu."
+            }, {
+                "name": "Stomaku",
+                "shortDesc": "Stomaku ndodhet ne bark,",
+                "image": "../../assets/imgs/stomakRed.png",
+                "longDesc": "Pa stomakun nuk jeton njeriu"
+            }, {
+                "name": "Mushkëritë",
+                "shortDesc": "Mushkëritë ndodhen ne kraharor.",
+                "image": "../../assets/imgs/mushkriRed.png",
+                "longDesc": "Pa mushkëritë nuk jeton njeriu."
+            },
+            {
+                "name": "Veshka",
+                "shortDesc": "Veshka ndodhet ne legen.",
+                "image": "../../assets/imgs/VeshkaRedMduket.png",
+                "longDesc": "Pa veshken nuk jeton njeriu."
+            },
+            {
+                "name": "Mëlcia",
+                "shortDesc": "Mëlcia ndodhet ne bark",
+                "image": "../../assets/imgs/idk_somethingRed.png",
+                "longDesc": "Pa mëlcine nuk jeton njeriu."
+            }
+        ]
+    }, {
+        "sisteme": [{
+            "name": "Sistemi nervor",
+            "shortDesc": "S nervor ....",
+            "image": "../../assets/imgs/nervous.png",
+            "longDescription": "......."
+        }, {
+            "name": "Sistemi tretes",
+            "shortDesc": "S qarkulli te gjakut ....",
+            "image": "../../assets/imgs/digestive.png",
+            "longDesc": "......."
+        }, {
+            "name": "Sistemi endokrin",
+            "shortDesc": "S endokrin ....",
+            "image": "../../assets/imgs/endocrine.png",
+            "longDesc": "......."
+        }, {
+            "name": "Sistemi limfatike",
+            "shortDesc": "S ekzokrin ....",
+            "image": "../../assets/imgs/lymphatic.png",
+            "longDesc": "......."
+
+        }, {
+            "name": "Sistemi muskular",
+            "shortDesc": "S ekzokrin ....",
+            "image": "../../assets/imgs/muscular.png",
+            "longDesc": "......."
+        }, {
+            "name": "Sistemi skeletal",
+            "shortDesc": "S ekzokrin ....",
+            "image": "../../assets/imgs/skeletal.png",
+            "longDesc": "......."
+        }]
+    }]
+
+}

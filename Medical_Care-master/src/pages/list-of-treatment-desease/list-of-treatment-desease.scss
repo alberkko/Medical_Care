@@ -1,0 +1,39 @@
+page-list-of-treatment-desease {
+    .contentClass {
+        background-image: url("../../assets/imgs/LandingPageMockUpV3.1 - Background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .desItems {
+        background-color: transparent;
+        padding: 0px;
+        margin: 0px;
+        border-radius: 25px;
+    }
+    
+    .smallImageDes {
+        position: relative;
+        height: 30px;
+        width: 30px;
+        left: 10px;
+    }
+    
+    .deseasesCard {
+        width: 100%;
+        border-radius: 35px;
+        // background: transparent;
+    }
+    
+    .paragraphTitle {
+        text-align: center;
+        float: center;
+    }
+    .nameDesease{
+        text-align: center;
+        float: center;
+        color: seagreen;
+    }
+    
+    
+}

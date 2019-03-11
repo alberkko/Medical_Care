@@ -1,0 +1,65 @@
+<ion-header>
+    <ion-navbar>
+        <ion-segment color="danger" [(ngModel)]="segment" (ionChange)="changeBodyLevelToStart(segment)">
+            <ion-segment-button value="organe">
+                Organe
+            </ion-segment-button>
+            <ion-segment-button value="sisteme">
+                Sisteme
+            </ion-segment-button>
+        </ion-segment>
+
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="contentClass" no-padding>
+    <ion-grid>
+        <ion-row>
+            <ion-col col-8 no-padding>
+                <ion-list no-padding>
+                    <ion-card *ngFor="let item of listOfPart" class="bodyMapCard" no-padding (click)="showNeededPart(item.name)">
+                        <ion-item no-padding class="bodyMapItems">
+                            <img no-padding src="{{item.image}}" item-left class="smallImageBodyMap">
+                            <p class="paragraphTitle">{{item.name}}</p>
+                        </ion-item>
+                    </ion-card>
+                </ion-list>
+            </ion-col>
+            <ion-col col-4>
+                <!-- <ion-item> -->
+                <img src="../../assets/imgs/bodyRed.PNG" class="bodyImageBM">
+                <!-- </ion-item> -->
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>
+
+
+<!-- 
+<ion-card class="bodyMapCard" no-padding>
+<ion-item no-padding class="bodyMapItems">
+<img src="../../assets/imgs/zemra.png" item-left class="smallImageBodyMap">
+<p class="paragraphTitle"><strong>Zemra</strong></p>
+</ion-item>
+</ion-card>
+
+<ion-card class="bodyMapCard" no-padding>
+<ion-item no-padding class="bodyMapItems">
+<img src="../../assets/imgs/SyriRed.png" item-left class="smallImageBodyMap">
+<p class="paragraphTitle"><strong>Syri</strong></p>
+</ion-item>
+</ion-card>
+
+<ion-card class="bodyMapCard" no-padding>
+<ion-item no-padding class="bodyMapItems">
+<img src="../../assets/imgs/stomakRed.png" item-left class="smallImageBodyMap">
+<p class="paragraphTitle"><strong>Stomaku</strong></p>
+</ion-item>
+</ion-card>
+
+<ion-card class="bodyMapCard" no-padding>
+<ion-item no-padding class="bodyMapItems">
+<img src="../../assets/imgs/mushkriRed.png" item-left class="smallImageBodyMap">
+<p class="paragraphTitle"><strong>Mushkri</strong></p>
+</ion-item>
+</ion-card> -->

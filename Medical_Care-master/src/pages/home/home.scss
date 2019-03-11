@@ -1,0 +1,82 @@
+page-home {
+    #custom-overlay {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 100000;
+        width: 100%;
+        background-color: #002a3e;
+    }
+    .flb {
+        background-color: #3ebffb;
+        height: 100%;
+        width: 100%;
+        animation: pulse 1s linear forwards;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Aligner-item {
+        max-width: 50%;
+    }
+    .Aligner-item--top {
+        align-self: flex-start;
+    }
+    .Aligner-item--bottom {
+        align-self: flex-end;
+    }
+    #custom-overlay img {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+        height: 80%;
+        animation: animation 3100ms linear infinite both;
+        animation-delay: 1s;
+    }
+    #cardTitle {
+        position: relative;
+        text-align: left;
+    }
+    .contentClass {
+        background-image: url("../../assets/imgs/LandingPageMockUpV3.1 - Background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .itemCardMainComponent {
+        border-radius: 80px;
+    }
+    .smallImage {
+        position: relative;
+        height: 35px;
+        width: 35px;
+        left: 8px;
+    }
+    .mainImageView {
+        position: relative;
+        left: 115px;
+        top: 15px;
+        height: 85px;
+        width: 59%;
+    }
+    .paragraphTitleHome {
+        text-align: center;
+        text-shadow: 3px;
+        color: #32db64;
+        float: center;
+    }
+    .paragraphDown {
+        text-align: center;
+        text-shadow: 3px;
+        color: #32db64;
+    }
+    .tipPrase {
+        text-shadow: 3px;
+        color: #ffffff;
+        padding-top: 35px;
+        text-align: center;
+        display: inline;
+        white-space: pre-wrap;
+    }
+}

@@ -1,0 +1,61 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>Simptomat</ion-title>
+    </ion-navbar>
+</ion-header>
+
+
+<ion-content class="contentClass">
+    <ion-slides #slides (ionSlideWillChange)="onSlideChangeStart($event)" pager>
+
+        <ion-slide>
+            <h2 class="slide-title">
+                Informacion i pergjthshem
+            </h2>
+            <ion-input #age col-8 type="number" placeholder="Mosha" aria-required="true" center></ion-input>
+            <ion-row>
+                <ion-col col-md-6>
+                    <button ion-button outline>
+                        Mashkull
+                    </button>
+                </ion-col>
+                <ion-col col-md-6>
+                    <button ion-button outline >
+                        Femer
+                    </button>
+                </ion-col>
+            </ion-row>
+        </ion-slide>
+
+        <ion-slide>
+            <h2 class="slide-title">Pershkruaj semundjen</h2>
+            <ion-input #descDesesase col-10 placeholder="P.Sh dhimbje koke"></ion-input>
+
+            
+        </ion-slide>
+
+        <ion-slide>
+            <h2 class="slide-title">Pershkruaj mjekimet</h2>
+            <ion-label>Mjekimi i tanishem</ion-label>
+            <ion-input #medication col-8 placeholder="P.Sh ..."></ion-input>
+            <br/>
+            <ion-label>Mjekimi i meparshem</ion-label>
+            <ion-input #prevMedication col-8 placeholder="P.Sh ..."></ion-input>
+        </ion-slide>
+
+
+        <ion-slide>
+            <ion-label>Gjendja aktuale</ion-label>
+            <ion-input #nowState col-8 placeholder="P.Sh ..."></ion-input>
+        </ion-slide>
+
+        <ion-slide>
+            <h2 class="slide-title">Gjej semundjen</h2>
+            <button ion-button icon-end large clear (click)="showDesease()">
+            Vazhdo
+            <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+        </ion-slide>
+
+    </ion-slides>
+</ion-content>

@@ -1,0 +1,35 @@
+<!--
+  Generated template for the ShowCureForDeseasePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Kura</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content class="contentClass" no-padding>
+
+    <ion-card class="infoDes">
+        <img class="mainImageView" src="{{singleBodyPart.sImg}}" />
+        <ion-card-content>
+            <ion-card-title>
+                {{singleBodyPart.name}}
+            </ion-card-title>
+            <ion-item class="infoDes">
+                <h5>Trajtimi</h5>
+                <p class="paragraphDescr">{{singleBodyPart.treat}}</p>
+            </ion-item>
+            <ion-item class="infoDes">
+                <h5>Konsulta</h5>
+                <p class="paragraphDescr"> {{singleBodyPart.consult}}</p>
+            </ion-item>
+
+        </ion-card-content>
+    </ion-card>
+</ion-content>

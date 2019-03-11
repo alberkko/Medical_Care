@@ -1,0 +1,52 @@
+page-list {
+    .card-header {
+        background-color: red;
+        color: black;
+    }
+    .card-content {
+        padding: 0px 0px;
+        max-height: 0px;
+    }
+    .contentClass {
+        background-image: url("../../assets/imgs/LandingPageMockUpV3.1 - Background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .smallImage {
+        position: relative;
+        height: 35px;
+        width: 35px;
+        left: 8px;
+    }
+    .listItem {
+        border-radius: 35px;
+    }
+    .logoImage {
+        position: relative;
+        left: 115px;
+        top: 15px;
+        height: 85px;
+        width: 59%;
+    }
+    .filterButton {
+        text-align: center;
+        text-decoration-color: white;
+        background-color: #edd523;
+        padding: 0px;
+        border-radius: 35px;
+    }
+    .showAllButton {
+        text-align: center;
+        text-decoration-color: white;
+        background-color: #0dbbdd;
+        border-radius: 35px;
+    }
+    .optionSel {
+        text-align: center;
+        color: seagreen;
+        //font-family: 'Times New Roman', Times, serif;
+    }
+    .optionLab {
+        //font-family: 'Times New Roman', Times, serif;
+    }
+}

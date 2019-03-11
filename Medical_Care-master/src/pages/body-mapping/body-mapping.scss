@@ -1,0 +1,51 @@
+.contentClass {
+    background-image: url("../../assets/imgs/LandingPageMockUpV3.1 - Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bodyMapItems {
+    background-color: transparent;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 25px;
+}
+
+.smallImageBodyMap {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    left: 10px;
+}
+
+.bodyMapCard {
+    width: 170px;
+    border-radius: 35px;
+    // background: transparent;
+}
+.lowbutton{
+   box-shadow: 0 2px 1px 0 rgba(56, 56, 56, 0.616);
+    border-radius: 11px;
+    text-transform: capitalize;
+    color: rgb(255, 61, 27);
+    font-size: 13px;
+    width: 85px;
+    height: 33px;
+    background-color: #ffffff;
+}
+
+.row { 
+    position: relative;
+    padding-right: 25px;
+}
+.paragraphTitle {
+    text-align: center;
+    float: center;
+}
+
+.bodyImageBM {
+    position: relative;
+    top: 25px;
+    height: 290px;
+    background: transparent;
+}

@@ -1,0 +1,76 @@
+<!-- <ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Home</ion-title>
+    </ion-navbar>
+</ion-header> -->
+<ion-content class="contentClass">
+    <img src="../../assets/imgs/Logo - Background.png" class="mainImageView">
+
+    <ion-list>
+        <ion-card class="itemCardMainComponent">
+            <ion-item no-padding (click)="goToListHospitals()">
+                <img src="../../assets/imgs/ambulance (1).png" item-left class="smallImage">
+                <p class="paragraphTitleHome">Lista Spitaleve</p>
+                <ion-icon color="secondary" item-right small name="arrow-dropright"></ion-icon>
+            </ion-item>
+        </ion-card>
+
+        <ion-card class="itemCardMainComponent">
+            <ion-item no-padding (click)="goToBodyMapping()">
+                <img no-padding src="../../assets/imgs/x-ray (2).png" item-left class="smallImage">
+                <p class="paragraphTitleHome"> Pjeset e trupit</p>
+                <ion-icon color="secondary" item-right small name="arrow-dropright"></ion-icon>
+            </ion-item>
+        </ion-card>
+
+        <ion-card class="itemCardMainComponent">
+            <ion-item no-padding class="itemCardMainComponent" (click)="goToDeseases()">
+                <img no-padding src="../../assets/imgs/doctor.png" item-left class="smallImage">
+                <p class="paragraphTitleHome">Semundjet</p>
+                <ion-icon color="secondary" item-right small name="arrow-dropright"></ion-icon>
+            </ion-item>
+        </ion-card>
+
+        <ion-card class="itemCardMainComponent">
+            <ion-item no-padding (click)="checkSymptoms()">
+                <img src="../../assets/imgs/pain (1).png" item-left class="smallImage">
+                <p class="paragraphTitleHome">Simptomat</p>
+                <ion-icon color="secondary" item-right small name="arrow-dropright"></ion-icon>
+            </ion-item>
+        </ion-card>
+
+    </ion-list>
+
+    <ion-grid no-padding>
+        <ion-row no-padding>
+            <ion-col no-padding col-6>
+                <ion-card class="itemCardMainComponent" no-padding>
+                    <ion-item no-padding (click)="goToThreatment()">
+                        <p class="paragraphDown">Trajtimi</p>
+                        <ion-icon color="secondary" item-right small name="arrow-dropright"></ion-icon>
+                    </ion-item>
+                </ion-card>
+            </ion-col>
+
+            <ion-col no-padding col-6>
+                <ion-card class="itemCardMainComponent" no-padding>
+                    <ion-item no-padding (click)="goToContact()">
+                        <p class="paragraphDown">Kontakto</p>
+                        <ion-icon color="secondary" item-right small name="arrow-dropright"></ion-icon>
+                    </ion-item>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+        <!-- TODO implement messages coming from the internet .... posible to be a json array  -->
+        <p class="tipPrase">
+            <strong>Keshilla e dites:</strong> Vitamina D ul rrezikun e kancerit.
+        </p>
+
+
+    </ion-grid>
+
+
+</ion-content>

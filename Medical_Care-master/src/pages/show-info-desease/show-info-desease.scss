@@ -1,0 +1,25 @@
+page-show-info-desease {
+    .contentClass {
+        background-image: url("../../assets/imgs/LandingPageMockUpV3.1 - Background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .paragraphDescr{
+        display: inline;
+        white-space: pre-wrap;
+       color: black
+
+    }
+
+    .mainImageView{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .infoDes{
+        background: color #f2eded;
+        padding: 0%;
+       
+    }
+}

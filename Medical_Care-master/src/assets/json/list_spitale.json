@@ -1,0 +1,175 @@
+{
+    "qytete": [
+        {
+            "sName": "Spitale",
+            "Spitale": [
+                {
+                    "name": "Berat",
+                    "departament": [
+                        {
+                            "dName": "Kardiologjia",
+                            "pos": {
+                                "lat": 40.70191,
+                                "lng": 19.96848
+                            }
+                        },
+                        {
+                            "dName": "Ortopedia",
+                            "pos": {
+                                "lat": 40.70191,
+                                "lng": 19.96848
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Durres",
+                    "departament": [
+                        {
+                            "dName": "Kardiologjia",
+                            "pos": {
+                                "lat": 41.3263769,
+                                "lng": 19.4426859
+                            }
+                        },
+                        {
+                            "dName": "Ortopedia",
+                            "pos": {
+                                "lat": 41.3263769,
+                                "lng": 19.4426859
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Kruje",
+                    "departament": [
+                        {
+                            "dName": "Kardiologjia",
+                            "pos": {
+                                "lat": 41.516058,
+                                "lng": 19.790183
+                            }
+                        },
+                        {
+                            "dName": "Ortopedia",
+                            "pos": {
+                                "lat": 41.516058,
+                                "lng": 19.790183
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Sarande",
+                    "departament": [
+                        {
+                            "dName": "Kardiologjia",
+                            "pos": {
+                                "lat": 39.874369,
+                                "lng": 20.00097
+                            }
+                        },
+                        {
+                            "dName": "Ortopedia",
+                            "pos": {
+                                "lat": 39.874369,
+                                "lng": 20.00097
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Tirana",
+                    "departament": [
+                        {
+                            "dName": "Kardiologjia",
+                            "pos": {
+                                "lat": 41.340335,
+                                "lng": 19.83457
+                            }
+                        },
+                        {
+                            "dName": "Ortopedia",
+                            "pos": {
+                                "lat": 41.341118,
+                                "lng": 19.760885
+                            }
+                        },
+                        {
+                            "dName": "Sherbimi i shpejte",
+                            "pos": {
+                                "lat": 41.343492,
+                                "lng": 19.795257
+                            }
+                        },
+                        {
+                            "dName": "Neurologjia",
+                            "pos": {
+                                "lat": 41.339039,
+                                "lng": 19.837256
+                            }
+                        },
+                        {
+                            "dName": "Pediatria",
+                            "pos": {
+                                "lat": 41.339298,
+                                "lng": 19.834807
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Vlore",
+                    "departament": [
+                        {
+                            "dName": "Kardiologjia",
+                            "pos": {
+                                "lat": 40.477717,
+                                "lng": 19.500598
+                            }
+                        },
+                        {
+                            "dName": "Ortopedia",
+                            "pos": {
+                                "lat": 40.477717,
+                                "lng": 19.500598
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sName": "Kilinika",
+            "Kilinika": [
+                {
+                    "name": "Tirana",
+                    "departament": [
+                        {
+                            "dName": "Eko Zemre dhe EKG",
+                            "pos": {
+                                "lat": 41.337074,
+                                "lng": 19.792378
+                            }
+                        },
+                        {
+                            "dName": "Obstetrike",
+                            "pos": {
+                                "lat": 41.300824,
+                                "lng": 19.848553
+                            }
+                        },
+                        {
+                            "dName": "Kirurgji Estetike",
+                            "pos": {
+                                "lat": 41.333198,
+                                "lng": 19.802626
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
